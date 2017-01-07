@@ -3,7 +3,7 @@
 etc/wp-cli.yml
 !public/wp/wp-content/themes
 !public/wp/.htaccess
-#public/wp/*
+public/wp/*
 
 composer.phar
 /vendor/
