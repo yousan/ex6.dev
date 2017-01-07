@@ -1,10 +1,7 @@
-*.log
-
 etc/wp-cli.yml
-!public/wp/wp-content/themes
+public/wp/*
 !public/wp/.htaccess
-#public/wp/*
-wp_
+!public/wp/wp-content/themes/
 
 composer.phar
 /vendor/
