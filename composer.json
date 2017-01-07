@@ -1,0 +1,15 @@
+{
+  "require": {
+    "php": ">=5.4",
+    "johnpbloch/wordpress": "4.7",
+    "squizlabs/php_codesniffer": "*"
+  },
+  "extra": {
+    "wordpress-install-dir": "public/wp"
+  },
+  "scripts" : {
+    "post-install-cmd": [
+      "composer create-project wp-coding-standards/wpcs --no-dev"
+    ]
+  }
+}
